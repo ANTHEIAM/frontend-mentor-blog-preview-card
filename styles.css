@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+  font-size: clamp(8px, 2vw, 16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1440px;
+  min-width: 330px;
+}
+
+.card {
+  max-width: 330px;
+  max-width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 8px 8px hsl(0, 0%, 7%);
+  margin: auto;
+  padding: 16px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.chip {
+  box-sizing: border-box;
+  width: 6em;
+  margin-top: 4vh;
+  margin-bottom: auto;
+  background-color: hsl(47, 88%, 63%);
+  /*min-width: 16vw;*/
+  /*max-width: 6vw;*/
+  padding: 0.5vh 1.5vh 0.5vh 1.5vh;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 14px;
+}
+h2 {
+  margin-bottom: auto;
+}
+
+.paragraph {
+  color: hsl(0, 0%, 50%);
+}
+
+.avatar {
+  width: 4vh;
+}
+
+.signature {
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  gap: 1vh;
+  font-size: 12px;
+  font-weight: bolder;
+}
+/* 
+p, h2{
+    text-align: center;
+    margin: 10px;
+}
+h2{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+} */
